@@ -67,11 +67,11 @@ Performance on benchmark datasets reported by the Author:
 Performance on benchmark datasets derived by the codes in this repository:
 > `th` means PyTorch while `tf` means TensorFlow. 
 
-| (Flipping, Rate) | MNIST (th) | MNIST (tf) | CIFAR-10 (th) | CIFAR-10 (tf) | CIFAR-100 (th) | CIFAR-100 (tf) |
-| ---------------: | ---------: | ---------: | ------------: | ------------: | -------------: | -------------: |
-| (Pair, 45%)      | 88.63%     | 94.16%     | 72.88%        | 76.04%        | 34.05%         | 35.24%         |
-| (Symmetry, 50%)  | 92.34%     | 98.05%     | 74.56%        | 79.64%        | 41.17%         | 49.09%         |
-| (Symmetry, 20%)  | 97.84%     | 99.16%     | 82.87%        | 87.02%        | 54.11%         | 59.55%         |
+| (Flipping, Rate) | MNIST (th -- tf) | CIFAR-10 (th -- tf) | CIFAR-100 (th -- tf) |
+| ---------------: | ---------------: | ------------------: | -------------------: |
+| (Pair, 45%)      | 88.63% -- 94.16% | 72.88% -- 76.04%    | 34.05% -- 35.24%     |
+| (Symmetry, 50%)  | 92.34% -- 98.05% | 74.56% -- 79.64%    | 41.17% -- 49.09%     |
+| (Symmetry, 20%)  | 97.84% -- 99.16% | 82.87% -- 87.02%    | 54.11% -- 59.55%     |
 
 > The model structure and parameters setting of TensorFlow version are the same as that of PyTorch version (almost), 
 but I am not sure why the performance of TensorFlow version is generally better than the PyTorch version, maybe the 
