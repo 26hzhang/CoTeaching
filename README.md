@@ -11,8 +11,8 @@ implementation is provided by the author "[Bo Han](https://bhanml.github.io)" as
 https://github.com/bhanML/Co-teaching).
 
 ## Requirements
-The codes are developed and tested on MacOS (`python==3.7.x`) and Ubuntu 18.04 (`python==3.6.x`, NVIDIA GeForce GTX 
-1080 Ti, `CUDA==10.0`) with following environment:
+The codes are developed and tested on MacOS (`python==3.7.x`, CPU) and Ubuntu 18.04 (`python==3.6.x`, NVIDIA GeForce GTX 
+1080 Ti GPU with `CUDA==10.0`) with following environment:
 - tensorflow==1.13.1 (>=1.8.0)
 - pytorch==1.1.0
 - numpy==1.14.6
