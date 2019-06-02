@@ -1,5 +1,4 @@
 # CoTeaching
-A TensorFlow implementation of "Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels".
 
 This repository reproduces the NeurIPS'18 paper
 [Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels](
