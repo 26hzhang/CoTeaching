@@ -102,3 +102,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# custom
+.idea/
+.DS_Store
+*.DS_Store
+results/
+data/mnist/
+data/cifar10/
+data/cifar100/
+
