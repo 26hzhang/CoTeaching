@@ -14,7 +14,7 @@ https://github.com/bhanML/Co-teaching).
 The codes are developed and tested on MacOS (`python==3.7.x`, CPU) and Ubuntu 18.04 (`python==3.6.x`, NVIDIA GeForce GTX 
 1080 Ti GPU with `CUDA==10.0`) with following environment:
 - tensorflow==1.13.1 (>=1.8.0)
-- pytorch==1.1.0
+- pytorch==1.1.0 (>=0.4.1)
 - numpy==1.14.6
 
 ## Setups
