@@ -73,6 +73,6 @@ Performance on benchmark datasets derived by the codes in this repository:
 | (Symmetry, 50%)  | 92.34% -- 98.05% | 74.56% -- 79.64%    | 41.17% -- 49.09%     |
 | (Symmetry, 20%)  | 97.84% -- 99.16% | 82.87% -- 87.02%    | 54.11% -- 59.55%     |
 
-> The model structure and parameters setting of TensorFlow version are the same as those of PyTorch version (almost), 
+> The model structure and parameters setting of TensorFlow version are almost same as those of PyTorch version, 
 but I am not sure why the performance of TensorFlow version is generally better than the PyTorch version, maybe the 
 internal implementation of some functions are different between these two frameworks? Or, I made some unseen errors?
