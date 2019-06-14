@@ -75,4 +75,4 @@ Performance on benchmark datasets derived by the codes in this repository:
 
 > The model structure and parameters setting of TensorFlow version are almost same as those of PyTorch version, 
 but the performance of TensorFlow version is generally better than the PyTorch version, I think it maybe caused by the 
-internal implementation of some functions are different between these two frameworks?
+internal implementation of some functions are different between these two frameworks.
